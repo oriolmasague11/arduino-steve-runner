@@ -1,10 +1,10 @@
-# 🕹️ Steve Runner — Arduino OLED Game
+# Steve Runner — Arduino OLED Game
 A side-scrolling runner game inspired by the Chrome Dino, built for Arduino and displayed on a 128×64 SSD1306 OLED screen.  
 Featuring animated characters, smooth physics, score tracking, collision detection, and custom pixel-art sprites.
 
 ---
 
-## 🎥 Overview
+## Overview
 Steve Runner is a lightweight Arduino game where the player controls **Steve**, who must jump or crouch to avoid obstacles. It includes:
 
 - Start menu with **Play** and **Character Selection**
@@ -18,7 +18,7 @@ Steve Runner is a lightweight Arduino game where the player controls **Steve**, 
 
 ---
 
-## 🛠️ Hardware Requirements
+## Hardware Requirements
 
 | Component | Notes |
 |----------|-------|
@@ -30,7 +30,7 @@ Steve Runner is a lightweight Arduino game where the player controls **Steve**, 
 
 ---
 
-## 📡 Wiring Diagram
+## Wiring Diagram
 
 ### OLED → Arduino
 | OLED Pin | Arduino Pin |
@@ -52,7 +52,7 @@ LED on **pin 10** is optional.
 
 ---
 
-## ▶️ How to Upload
+## How to Upload
 
 1. Install required Arduino libraries:  
    - **Adafruit GFX**  
@@ -65,7 +65,7 @@ LED on **pin 10** is optional.
 
 ---
 
-## 🎮 Controls
+## Controls
 
 | Action | Button |
 |--------|--------|
@@ -78,42 +78,42 @@ Jump uses a realistic **parabolic motion**, crouch adjusts hitbox and sprite.
 
 ---
 
-## 🏁 Gameplay Features
+## Gameplay Features
 
-### 🌥️ Background
+### Background
 - Animated clouds continuously scroll in the background.
 
-### 🦖 Player Animations
+### Player Animations
 - Running cycle with alternating legs  
 - Jumping  
 - Crouching  
 - Death pose  
 
-### 🎯 Obstacles
+### Obstacles
 - Random generation with configurable spacing
 - Animated sprites for certain objects
 - Object pooling for performance
 
-### 💥 Collision Detection
+### Collision Detection
 Custom bounding-box collision system optimized for the OLED.
 
 ---
 
-## 🧩 Menus
+## Menus
 
-### 📌 Title Screen
+### Title Screen
 Options:
 - **PLAY**
 - **MY DINO**
 
-### 🧍 Character Selector
+### Character Selector
 - Shows the selected character's name  
 - Press **B** to switch skins  
 - Press **A** to choose  
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 *(Screenshots have to be added)*
 
 ---
